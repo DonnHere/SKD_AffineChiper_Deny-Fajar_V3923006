@@ -1,0 +1,63 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Warna latar belakang  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* Latar belakang kontainer */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: #00796b; /* Warna judul */
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #00796b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+    margin: 5px 1%;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #004d40; /* Warna saat tombol di-hover */
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.result p {
+    background: #e0f2f1;
+    padding: 10px;
+    border-radius: 5px;
+}
